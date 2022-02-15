@@ -1,5 +1,9 @@
 package solution
 
+import (
+	emoji "github.com/kyokomi/emoji/v2"
+)
+
 func GetMessage() string {
-	return ""
+	return emoji.Sprint("Hello :world_map:!")
 }
